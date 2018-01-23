@@ -1,0 +1,10 @@
+package com.inesv.ecchain.kernel.core;
+
+
+public enum TransactionProcessorEvent {
+    REMOVED_UNCONFIRMED_TRANSACTIONS,
+    ADDED_UNCONFIRMED_TRANSACTIONS,
+    ADDED_CONFIRMED_TRANSACTIONS,
+    RELEASE_PHASED_TRANSACTION,
+    REJECT_PHASED_TRANSACTION
+}
